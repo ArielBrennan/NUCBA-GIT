@@ -7,9 +7,9 @@
     <title>Ejercicio III | Formulario</title>
 </head>
 <body><!-- Usé etiquetas <br> solo para que quede igual al ejemplo-->
-    <form method="get">
+    <form method="get"> <!-- Tutor dice que todos los inputs tienen que tener label, incluso el submit -->
         <h1>Formulario de registro</h1>
-        <div>
+        <div>       
             <label for="nombre">Nombre:</label>
             <input type="text" name="nombre" id="nombre" required>
         </div>
@@ -20,7 +20,7 @@
         </div>
         <br>
         <div>
-            <label for="sexo">Sexo:</label>
+            <span>Sexo:</span>   
             <input type="radio" name="sexo" id="hombre" value="hombre"> 
             <label for="hombre">hombre</label>
             <input type="radio" name="sexo" id="mujer" value="mujer">
